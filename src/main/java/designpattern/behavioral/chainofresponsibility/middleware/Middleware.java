@@ -15,6 +15,6 @@ public abstract class Middleware {
             return true;
         }
 
-        return next.checkNext(email, password);
+        return next.check(email, password);
     }
 }

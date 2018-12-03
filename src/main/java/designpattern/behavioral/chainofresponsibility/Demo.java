@@ -24,6 +24,6 @@ public class Demo {
     public static void main(String[] args)  {
         init();
 
-        server.logIn("admin@example.com", "user_pass");
+        server.logIn("user@example.com", "user_pass");
     }
 }
